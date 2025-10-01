@@ -1,0 +1,20 @@
+main
+	gpio_init
+		GPIO_Digital_Input
+			GPIO_Config
+				GPIO_Clk_Enable
+	GPIO_Digital_Output
+		GPIO_Config
+	xuat_32bit
+	GPIO_Digital_Input
+	GPIO_Config
+	usart2_init
+	uart4__init
+	timer1_init
+	memset
+	uart4_chr
+	__CC2DW
+	__FillZeros
+uart4_rx
+timer1_isr
+	xuat_32bit
